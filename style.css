@@ -1,0 +1,72 @@
+.html,body
+{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.asec{padding: 0 120px;}
+
+.dhead
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.dlogo
+{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.JHomes
+{
+    color: #000;
+    font-family: Clash Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.nlinks li
+{
+    display: inline-block;
+    align-items: center;
+
+}
+
+.nlinks li a
+{
+    cursor: pointer;
+    
+}
+
+.nlinks li a:hover
+{
+    margin: 10px ;
+}
+
+.home, .login, .about
+{
+    color: #000;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.sign
+{
+    color: #FFA800;
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
